@@ -24,6 +24,6 @@ puremvc.define(
     }
 },
 {
-    NAME: "SecondAsyncProxy"
+    NAME: "ThirdAsyncProxy"
 }
 );
