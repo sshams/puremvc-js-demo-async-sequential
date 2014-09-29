@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Async Command</title>
+<script src="js/api/puremvc-1.0.1.min.js"></script>
+<script src="js/api/puremvc-asynccommand-1.0.min.js"></script>
+<script src="js/api/puremvc-asyncproxy-1.0.js"></script>
+
+<script src="js/Sequential.js"></script>
+<script src="js/ApplicationFacade.js"></script>
+<script src="js/controller/StartupCommand.js"></script>
+<script src="js/controller/FirstAsyncCommand.js"></script>
+<script src="js/controller/SecondAsyncCommand.js"></script>
+<script src="js/controller/ThirdAsyncCommand.js"></script>
+<script src="js/controller/ExampleAsyncMacroCommand.js"></script>
+
+<script src="js/model/FirstAsyncProxy.js"></script>
+<script src="js/model/SecondAsyncProxy.js"></script>
+<script src="js/model/ThirdAsyncProxy.js"></script>
+    
+<script src="js/view/ApplicationMediator.js"></script>
+<script src="js/view/OutputMediator.js"></script>
+<script src="js/view/components/OutputComponent.js"></script>
+</head>
+<body>
+    <div id="output" style="background-color:#CCCCCC;height:180px;width:400px"></div>
+</body>
+<script>
+window.onload = function() {
+    new Sequential();
+}
+</script>
+</html>
