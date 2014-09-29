@@ -1,5 +1,5 @@
 ## [PureMVC](http://puremvc.github.com/) [JavaScript](https://github.com/PureMVC/puremvc-js-multicore-framework/wiki) Demo - Asynchronous Sequential
-This demo illustrates the use of both AsyncCommand and AsyncProxy utility to execute a series of commands and async data operations, all asynchronous operations (WebSQL, AJAX etc.) must complete before the next command can be executed. 
+This demo illustrates the use of both AsyncCommand and AsyncProxy utility to execute a series of async commands and async proxy operations, all asynchronous operations (WebSQL, AJAX etc.) must complete before the next command can be executed. 
 
 The pseudo-classes are written in PureMVC's optional built-in style.
 
